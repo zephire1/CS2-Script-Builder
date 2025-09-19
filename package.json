@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "node builder/main",
+    "build": "npx rollup -c",
     "watch": "nodemon"
   },
   "type": "module",
@@ -11,11 +11,14 @@
   "license": "ISC",
   "description": "CS2 Scripts Auto Builder Pipeline",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.4",
     "glob": "^11.0.3",
+    "rollup": "^4.50.2",
     "ts-loader": "^9.5.4",
     "typescript": "^5.9.2"
   },
   "dependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "tslib": "^2.8.1"
   }
 }
