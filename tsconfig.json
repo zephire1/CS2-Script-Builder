@@ -1,20 +1,20 @@
 {
   "compilerOptions": {
     "importHelpers": true,
-    "target": "ESNext",
-    "module": "ESNext",
+    "target": "esnext",
+    "module": "nodenext",
     "esModuleInterop": true,
-    "moduleResolution": "node",
+    "moduleResolution": "nodenext",
     "sourceMap": false,
     "outDir": "E:\\steam\\steamapps\\common\\Counter-Strike Global Offensive\\content\\csgo_addons\\newscripts\\scripts",
     "baseUrl": "./",
     "paths": {
-      "cs_script/*": ["src/types/*"],
-      "@cs2builder/*": ["builder/@cs2builder/*"]
+      "@cs_script/*": ["src/types/*"],
+      "@cs2builder/*": ["builder/cs2builder/*"]
     },
     "typeRoots": ["node_modules/@types", "src/types"]
   },
-  "lib": ["es2015"],
-  "include": ["src/**/*"],
+  "lib": ["ESNext"],
+  "include": ["src/**/*", "builder/cs2builder/**/*"],
   "exclude": ["node_modules"]
 }
