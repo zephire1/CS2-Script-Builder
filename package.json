@@ -1,10 +1,10 @@
 {
-  "name": "cs2 scripts builder",
+  "name": "cs2-scripts-builder",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "build": "npx rollup --config builder/rollup.config.cjs",
-    "watch": "nodemon"
+    "dev": "nodemon"
   },
   "type": "module",
   "author": "zephire",
