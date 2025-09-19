@@ -106,6 +106,9 @@ CS2-Script-Builder/
 For a visual walkthrough of the setup process, watch our tutorial:
 [https://youtu.be/Un05KbKqGfU](https://youtu.be/Un05KbKqGfU)
 
+## Wiki API
+https://github.com/zephire1/CS2-Script-Builder/wiki/cs2-builder-library-API
+
 ## Features in Detail
 
 ### Module System
