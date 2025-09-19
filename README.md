@@ -64,14 +64,14 @@ _Note: This only needs to be done once during initial setup._
 ### Step 7: Create Your First Script
 
 1. Navigate to the `src` folder
-2. Create your first file, for example `main.ts`
+2. Create your first file, for example `index.ts`
 3. Write your CS2 script code with full TypeScript support
 
-Example `main.ts`:
+Example `index.ts`:
 
 ```typescript
 // Your CS2 script code here
-import { Instance } from 'cs_script/point_script';
+import { Instance } from '@cs_script/point_script';
 
 Instance.ServerCommand('say hello from JS!');
 ```
@@ -102,7 +102,7 @@ Run `npm run dev` to start the file watcher. This will:
 CS2-Script-Builder/
 ├── src/                    # Your TypeScript source files
 │   ├── types/             # Type definitions
-│   └── main.ts            # Your main script file
+│   └── index.ts            # Your main script file
 ├── builder/               # Build system files
 ├── tsconfig.json          # TypeScript configuration
 ├── package.json           # Project dependencies
@@ -136,8 +136,8 @@ export function myUtility() {
   return 'Hello from utility!';
 }
 
-// main.ts
-import { Instance } from 'cs_script/point_script';
+// index.ts
+import { Instance } from '@cs_script/point_script';
 import { myUtility } from './utils';
 
 Instance.Msg(myUtility());

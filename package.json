@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "npx rollup --config builder/rollup.config.cjs",
+    "build": "npx rollup --config builder/rollup.config.mjs",
     "dev": "nodemon"
   },
   "type": "module",
