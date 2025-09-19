@@ -1,14 +1,16 @@
 {
   "compilerOptions": {
+    "importHelpers": true,
     "target": "ESNext",
     "module": "ESNext",
     "esModuleInterop": true,
     "moduleResolution": "node",
     "sourceMap": false,
-    "outDir": "E:/steam/steamapps/common/Counter-Strike Global Offensive/content/csgo_addons/newscripts/scripts",
+    "outDir": "E:\\steam\\steamapps\\common\\Counter-Strike Global Offensive\\content\\csgo_addons\\autotests\\scripts",
     "baseUrl": "./",
     "paths": {
-      "cs_script/*": ["src/types/*"]
+      "cs_script/*": ["src/types/*"],
+      "@cs2builder/*": ["builder/@cs2builder/*"]
     },
     "typeRoots": ["node_modules/@types", "src/types"]
   },
