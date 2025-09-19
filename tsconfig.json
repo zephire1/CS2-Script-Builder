@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "outDir": "E:/steam/steamapps/common/Counter-Strike Global Offensive/content/csgo_addons/newscripts/scripts",
+    "baseUrl": "./",
+    "paths": {
+      "cs_script/*": ["src/types/*"]
+    },
+    "typeRoots": ["node_modules/@types", "src/types"]
+  },
+  "lib": ["es2015"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}

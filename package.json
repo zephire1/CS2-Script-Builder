@@ -1,0 +1,21 @@
+{
+  "name": "cs2 scripts builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node builder/main",
+    "watch": "nodemon"
+  },
+  "type": "module",
+  "author": "zephire",
+  "license": "ISC",
+  "description": "CS2 Scripts Auto Builder Pipeline",
+  "devDependencies": {
+    "glob": "^11.0.3",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
